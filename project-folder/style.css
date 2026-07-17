@@ -1,0 +1,252 @@
+/* ================= GLOBAL ================= */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background-image: url('https://www.jeffan.com/web-assets/images/landing/living-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(255,255,255,0.75);
+    z-index: 0;
+}
+
+.app-layout,
+.app-layout * {
+    position: relative;
+    z-index: 1;
+}
+
+/* ================= LAYOUT ================= */
+.app-layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+    width: 270px;
+    background: linear-gradient(180deg, #1a84f5 0%, #0f038f 100%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.sidebar-logo {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+.sidebar h1 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.sidebar h2 {
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+/* ================= FORM ================= */
+.container {
+    width: 100%;
+    margin-top: 15px;
+}
+
+select,
+input,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #1a24e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f5f5f6bd;
+}
+
+/* ================= MAIN CONTENT ================= */
+#itemDetail {
+    flex: 1;
+    padding: 30px;
+    margin-left: 270px;
+    overflow-y: auto;
+}
+
+/* ================= IMAGE FIX ================= */
+#itemDetail img {
+    max-width: 100%;
+    max-height: 65vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
+/* ================= ONLINE STORE ================= */
+.toko-online {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link-toko {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.link-toko a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link-toko a:hover {
+    text-decoration: underline;
+}
+
+/* ================= CLOCK ================= */
+#clock-container {
+    margin: 10px 0;
+    text-align: center;
+}
+
+#clock-time {
+    font-weight: bold;
+    font-size: 14px;
+    color: #090909;
+}
+
+#clock-date {
+    font-size: 12px;
+    color: #090909;
+}
+
+/* ================= IMAGE ZOOM ================= */
+#imageModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+}
+
+#imageModal img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+#closeZoom {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ================= ITEM CARD ================= */
+.item-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.item-info {
+    flex: 2;
+    font-size: 14px;
+}
+
+.item-row {
+    margin-bottom: 10px;
+}
+
+.item-label {
+    font-weight: bold;
+    color: #333;
+    width: 140px;
+    display: inline-block;
+}
+
+.item-image-box {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background: #fafafa;
+    text-align: center;
+}
+
+.item-image-box img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 768px) {
+
+    .app-layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    #itemDetail {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    #itemDetail img {
+        max-height: 50vh;
+    }
+
+    .item-card {
+        flex-direction: column;
+    }
+}
