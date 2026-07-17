@@ -19957,87 +19957,344 @@ const KodeSearch = document.getElementById("KodeSearch");
 
 let filteredItems = [];
 let currentIndex = 0;
+let currentMode = "menu";
 
 // ================= DROPDOWN =================
-function initDropdowns() {
-    kategoriSelector.innerHTML = '<option value="">-- Select Category --</option>';
-    kodeSelector.innerHTML = '<option value="">-- Select Code --</option>';
-    vendorSelector.innerHTML = '<option value="">-- Select Vendor --</option>';
+ function initDropdowns() {
 
-    Object.keys(data).forEach(key => {
-        kodeSelector.innerHTML += `<option value="${key}">${key}</option>`;
-    });
+                kategoriSelector.innerHTML = '<option value="">-- Select Category --</option>';
+                kodeSelector.innerHTML = '<option value="">-- Select Code --</option>';
+                vendorSelector.innerHTML = '<option value="">-- Select Vendor --</option>';
 
-    [...new Set(Object.values(data).map(d => d.kategori))].forEach(cat => {
-        kategoriSelector.innerHTML += `<option value="${cat}">${cat}</option>`;
-    });
+                Object.keys(data).forEach(key => {
+                    const opt = document.createElement("option");
+                    opt.value = key;
+                    opt.textContent = key;
+                    kodeSelector.appendChild(opt);
+                });
 
-    [...new Set(Object.values(data).map(d => d.vendor))].forEach(v => {
-        vendorSelector.innerHTML += `<option value="${v}">${v}</option>`;
-    });
-}
+                const categories = [...new Set(Object.values(data).map(d => d.kategori))];
+                categories.forEach(cat => {
+                    const opt = document.createElement("option");
+                    opt.value = cat;
+                    opt.textContent = cat;
+                    kategoriSelector.appendChild(opt);
+                });
 
-initDropdowns();
+                const vendors = [...new Set(Object.values(data).map(d => d.vendor))];
 
-// ================= SHOW ITEM =================
-function showItem(index) {
-    if (index < 0 || index >= filteredItems.length) return;
+                vendors.sort((a, b) => {
+                    const numA = parseInt(a.match(/\d+/));
+                    const numB = parseInt(b.match(/\d+/));
+                    return numA - numB;
+                });
 
-    currentIndex = index;
-    const key = filteredItems[index];
-    const item = data[key];
+                vendors.forEach(v => {
+                    const opt = document.createElement("option");
+                    opt.value = v;
+                    opt.textContent = v;
+                    vendorSelector.appendChild(opt);
+                });
+            }
 
-    itemDetail.style.display = "block";
-    itemDetail.innerHTML = `
-        <div class="item-card">
-            <div class="item-info">
-                <div class="item-row"><span class="item-label">Vendor:</span> ${item.vendor}</div>
-                <div class="item-row"><span class="item-label">Item Code:</span> ${key}</div>
-                <div class="item-row"><span class="item-label">Item Name:</span> ${item.nama}</div>
-                <div class="item-row"><span class="item-label">Category:</span> ${item.kategori}</div>
-                <div class="item-row"><span class="item-label">Sub Category:</span> ${item.subkategori}</div>
-                <div class="item-row"><span class="item-label">Color:</span> ${item.warna}</div>
-                <div class="item-row"><span class="item-label">Tier:</span> ${item.tier}</div>
-                <div class="item-row"><span class="item-label">CBM:</span> ${item.cbm}</div>
-                <div class="item-row"><span class="item-label">HTS:</span> ${item.hts}</div>
-                <div class="item-row"><span class="item-label">Description:</span><br>${item.keterangan}</div>
-            </div>
-            <div class="item-image-box">
-                <img src="${item.gambar}" onclick="toggleZoom(this)">
-            </div>
-        </div>`;
-}
+            initDropdowns();
+            resetGallery();
 
-// ================= EVENTS =================
-kodeSelector.onchange = function () {
-    if (!this.value) return;
-    filteredItems = Object.keys(data);
-    showItem(filteredItems.indexOf(this.value));
-};
+            /* ================= DISPLAY SINGLE ITEM ================= */
 
-KodeSearch.oninput = function () {
-    const term = this.value.trim().toUpperCase();
-    filteredItems = Object.keys(data).filter(k => k.includes(term));
-    if (filteredItems.length > 0) showItem(0);
-};
+            function showItem(index) {
 
-previousButton.onclick = () => showItem(currentIndex - 1);
-nextButton.onclick = () => showItem(currentIndex + 1);
+                if (index < 0 || index >= filteredItems.length) return;
 
-// ================= ZOOM =================
-const modal = document.getElementById("imageModal");
-const zoomImg = document.getElementById("zoomImg");
-const closeZoom = document.getElementById("closeZoom");
+                currentIndex = index;
 
-function toggleZoom(img) {
-    modal.style.display = "flex";
-    zoomImg.src = img.src;
-}
+                const key = filteredItems[currentIndex];
+                const item = data[key];
 
-closeZoom.onclick = () => modal.style.display = "none";
-modal.onclick = () => modal.style.display = "none";
+                itemDetail.style.display = "block";
 
-// ================= BACK =================
-function backToApp1() {
-    window.location.href = "https://boetepaythea-sudo.github.io/Inspection-App/";
-}
+                itemDetail.innerHTML = `
+<div class="item-card">
+
+    <div class="item-info">
+
+        <div class="item-row">
+            <span class="item-label">Vendor :</span> ${item.vendor || "-"}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Item Code :</span> ${key}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Item Name :</span> ${item.nama}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Category :</span> ${item.kategori}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Sub Category :</span> ${item.subkategori}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Color :</span> ${item.warna}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Tier :</span> ${item.tier}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">CBM :</span> ${item.cbm}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">HTS Code :</span> ${item.hts}
+        </div>
+
+        <div class="item-row">
+            <span class="item-label">Descriptions :</span><br>
+            ${item.keterangan}
+        </div>
+
+    </div>
+
+    <div class="item-image-box">
+        <img src="${item.gambar}" onclick="toggleZoom(this)">
+    </div>
+
+</div>
+`;
+
+                previousButton.disabled = (currentIndex === 0);
+                nextButton.disabled = (currentIndex === filteredItems.length - 1);
+            }
+
+            /* ================= NAVIGATION ================= */
+
+            previousButton.onclick = () => showItem(currentIndex - 1);
+            nextButton.onclick = () => showItem(currentIndex + 1);
+
+            /* ================= SELECT ITEM CODE ================= */
+
+            kodeSelector.onchange = function () {
+
+                if (!this.value) {
+                    resetGallery();
+                    return;
+                }
+
+                currentMode = "single";
+
+                filteredItems = Object.keys(data);
+
+                currentIndex = filteredItems.indexOf(this.value);
+
+                kategoriSelector.value = "";
+                vendorSelector.value = "";
+                KodeSearch.value = "";
+
+                showItem(currentIndex);
+            };
+
+            /* ================= SEARCH ================= */
+
+            KodeSearch.oninput = function () {
+
+                const term = this.value.trim().toUpperCase();
+
+                if (!term) {
+                    resetGallery();
+                    return;
+                }
+
+                filteredItems = Object.keys(data).filter(k => k.includes(term));
+
+                if (filteredItems.length > 0) {
+
+                    currentMode = "single";
+                    currentIndex = 0;
+
+                    showItem(currentIndex);
+
+                    kategoriSelector.value = "";
+                    kodeSelector.value = "";
+                    vendorSelector.value = "";
+
+                } else {
+
+                    itemDetail.style.display = "none";
+                    previousButton.disabled = true;
+                    nextButton.disabled = true;
+
+                }
+            };
+
+            /* ================= SELECT CATEGORY ================= */
+
+            kategoriSelector.onchange = function () {
+
+                if (!this.value) { resetGallery(); return; }
+
+                currentMode = "category";
+
+                const keys = Object.keys(data).filter(k => data[k].kategori === this.value);
+
+                itemDetail.innerHTML = "";
+                itemDetail.style.display = "block";
+
+                keys.forEach(key => {
+
+                    const item = data[key];
+
+                    const div = document.createElement("div");
+
+                    div.innerHTML = `
+<div class="item-card" style="margin-bottom:20px;">
+
+    <div class="item-info">
+
+        <div class="item-row"><span class="item-label">Vendor :</span> ${item.vendor || "-"}</div>
+        <div class="item-row"><span class="item-label">Item Code :</span> ${key}</div>
+        <div class="item-row"><span class="item-label">Item Name :</span> ${item.nama}</div>
+        <div class="item-row"><span class="item-label">Category :</span> ${item.kategori}</div>
+        <div class="item-row"><span class="item-label">Sub Category :</span> ${item.subkategori}</div>
+        <div class="item-row"><span class="item-label">Color :</span> ${item.warna}</div>
+        <div class="item-row"><span class="item-label">Tier :</span> ${item.tier}</div>
+        <div class="item-row"><span class="item-label">CBM :</span> ${item.cbm}</div>
+        <div class="item-row"><span class="item-label">HTS Code :</span> ${item.hts}</div>
+        <div class="item-row"><span class="item-label">Descriptions :</span><br>${item.keterangan}</div>
+
+    </div>
+
+    <div class="item-image-box">
+        <img src="${item.gambar}" onclick="toggleZoom(this)">
+    </div>
+
+</div>
+`;
+
+                    itemDetail.appendChild(div);
+                });
+
+                previousButton.disabled = true;
+                nextButton.disabled = true;
+
+                kodeSelector.value = "";
+                vendorSelector.value = "";
+                KodeSearch.value = "";
+            };
+
+            /* ================= SELECT VENDOR ================= */
+
+            vendorSelector.onchange = function () {
+
+                if (!this.value) { resetGallery(); return; }
+
+                currentMode = "vendor";
+
+                const keys = Object.keys(data).filter(k => data[k].vendor === this.value);
+
+                itemDetail.innerHTML = "";
+                itemDetail.style.display = "block";
+
+                keys.forEach(key => {
+
+                    const item = data[key];
+
+                    const div = document.createElement("div");
+
+                    div.innerHTML = `
+<div class="item-card" style="margin-bottom:20px;">
+
+    <div class="item-info">
+
+        <div class="item-row"><span class="item-label">Vendor :</span> ${item.vendor || "-"}</div>
+        <div class="item-row"><span class="item-label">Item Code :</span> ${key}</div>
+        <div class="item-row"><span class="item-label">Item Name :</span> ${item.nama}</div>
+        <div class="item-row"><span class="item-label">Category :</span> ${item.kategori}</div>
+        <div class="item-row"><span class="item-label">Sub Category :</span> ${item.subkategori}</div>
+        <div class="item-row"><span class="item-label">Color :</span> ${item.warna}</div>
+        <div class="item-row"><span class="item-label">Tier :</span> ${item.tier}</div>
+        <div class="item-row"><span class="item-label">CBM :</span> ${item.cbm}</div>
+        <div class="item-row"><span class="item-label">HTS Code :</span> ${item.hts}</div>
+        <div class="item-row"><span class="item-label">Descriptions :</span><br>${item.keterangan}</div>
+
+    </div>
+
+    <div class="item-image-box">
+        <img src="${item.gambar}" onclick="toggleZoom(this)">
+    </div>
+
+</div>
+`;
+
+                    itemDetail.appendChild(div);
+
+                });
+
+                previousButton.disabled = true;
+                nextButton.disabled = true;
+
+                kategoriSelector.value = "";
+                kodeSelector.value = "";
+                KodeSearch.value = "";
+            };
+
+            /* ================= RESET ================= */
+
+            function resetGallery() {
+
+                currentMode = "menu";
+                filteredItems = [];
+                currentIndex = 0;
+
+                itemDetail.style.display = "none";
+
+                previousButton.disabled = true;
+                nextButton.disabled = true;
+
+                kodeSelector.value = "";
+                kategoriSelector.value = "";
+                vendorSelector.value = "";
+                KodeSearch.value = "";
+            }
+
+            function backToApp1() {
+                window.location.href = "https://boetepaythea-sudo.github.io/Inspection-App/";
+            }
+
+            /* ================= IMAGE ZOOM ================= */
+
+            const modal = document.getElementById("imageModal");
+            const zoomImg = document.getElementById("zoomImg");
+            const closeZoom = document.getElementById("closeZoom");
+
+            function toggleZoom(img) {
+                modal.style.display = "flex";
+                zoomImg.src = img.src;
+            }
+
+            closeZoom.onclick = function () {
+                modal.style.display = "none";
+            };
+
+            modal.onclick = function () {
+                modal.style.display = "none";
+            };
+
+            zoomImg.onclick = function () {
+                modal.style.display = "none";
+            };
+
+            document.addEventListener("keydown", function (e) {
+                if (e.key === "Escape") {
+                    modal.style.display = "none";
+                }
+            });
+
+            function backToApp1() {
+                window.location.href = "https://boetepaythea-sudo.github.io/Inspection-App/";
+            }
