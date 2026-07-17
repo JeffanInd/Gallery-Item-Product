@@ -20294,7 +20294,7 @@ let currentMode = "menu";
                     modal.style.display = "none";
                 }
             });
-            function backToApp1() {
+            function backToPurchaseOrder() {
                 window.location.href = "https://jeffanind.github.io/Purchase-Order/";
             }
             function backToApp1() {
