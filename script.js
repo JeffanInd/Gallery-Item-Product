@@ -20294,7 +20294,9 @@ let currentMode = "menu";
                     modal.style.display = "none";
                 }
             });
-
+            function backToApp1() {
+                window.location.href = "https://jeffanind.github.io/Purchase-Order/";
+            }
             function backToApp1() {
                 window.location.href = "https://boetepaythea-sudo.github.io/Inspection-App/";
             }
