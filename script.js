@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // ================= DATA =================
 const data = {
+
     "AB2-309606-MU": {
         vendor: "V309 H.N. Handicrafts",
         nama: "Organic Bowls With Ribbed Texture, 12 Inch W & 10.5 Inch W, 2 Piece Set, Gold/Matte White",
@@ -116,7 +117,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.0713",
         hts: "4420.90.80.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AB-320808-BK_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AB-320808-BK_001.JPG",
         keterangan: "1058UWN-A  //  Isla Abstract Design Enameled Mangowood Catchalll, Black Enamel With Natural Mangowood (10x10x3)   //  Material: Enameled Mangowood  //  Finish: Black Enamel With Natural Mangowood  //  CBM: 0.0713  //  Packaging: Brown Corrugated Box  //  MOQ: 150  Master Carton /pack of 6   DROPSHIP PACKAGING REQUIRED***//"
     },
     "AB-320808-TP": {
@@ -128,7 +129,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.0713",
         hts: "4420.90.80.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AB-320808-TP_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AB-320808-TP_001.JPG",
         keterangan: "1058UWN  //  Isla Abstract Design Enameled Mangowood Catchall, Sage Green Enamel With Natural Mangowood (10x10x3)   //  Material: Enameled Mangowood  //  Finish: Sage Green Enamel With Natural Mangowood  //  CBM: 0.0713  //  Packaging: Brown Corrugated Box  //    Master Carton  /Pack of 6   DROPSHIP PACKAGING REQUIRED***// Inch "
     },
     "AB-320840-BK": {
@@ -410,8 +411,8 @@ const data = {
     "AC-309151-M-GD": {
         vendor: "V309 H.N. Handicrafts",
         nama: "Rattan Wrapped Mangowood Lantern, 14 Inch H, Natural",
-        kategori: "0",
-        subkategori: "0",
+        kategori: "Home Accents",
+        subkategori: "Decorative Accessories",
         warna: "Decorative Accessories",
         tier: "New",
         cbm: "0.0727",
@@ -1322,9 +1323,9 @@ const data = {
     "AC-76999-NT": {
         vendor: "V76 CV. Arzati Rattan",
         nama: "Rattan Wrapped Decorative Sphere, 8  Inch   Inch  Round, Natural",
-        kategori: "0",
-        subkategori: "0",
-        warna: "0",
+        kategori: "Home Accents",
+        subkategori: "Decorative Accessories",
+        warna: "Natural",
         tier: "NNL",
         cbm: "0.0084",
         hts: "0",
@@ -2408,7 +2409,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.3",
         hts: "7009.92.50.95",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-308808-GR_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-308808-GR_001.JPG",
         keterangan: "WM-012  //  Leaning Mirror With Ornate Carved Antiqued Wood Frame, 72”H, Grey (34”W x 3”D x 72”H)  //  Material: MANGO WOOD/MDF/GLASS  //  Finish: DISTREESED GREY  //  CBM: 0.30  //  Packaging: Product wrapped with brown paper, protected with styrofoam corners . Put in brown master box of 250 LBS  //  MOQ: 50"
     },
     "AM-317015-GR": {
@@ -2468,7 +2469,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.1053",
         hts: "7009.92.50.95",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-317222-BL_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-317222-BL%E2%80%8B_001.jpg",
         keterangan: "17 MF - 093 // Rectangular Filagree Inlay Mirror, 30 Inch H, Blue/White, (24 Inch W x 0.75 Inch D x 30 Inch H) // Finish Name: Blue/White // Set Up  // CBM: 0.10528 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** //"
     },
     "AM-317267-NT": {
@@ -3176,7 +3177,7 @@ const data = {
         tier: "New",
         cbm: "0.12",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-70467-WW_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-70467-WW_004.jpg",
         keterangan: "J12228-4PJW // Fulton Rectanglar Mirror, Whitewash, (27.25 Inch W x 2 Inch D x 39.75 Inch H) // Materials: Acacia Wood - Envi Thin, Plywood // Finish Code: 4, Finish Name: White Wash // Set Up  // CBM: 0.12 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** //"
     },
     "AM-70521-WW": {
@@ -3646,18 +3647,6 @@ const data = {
         hts: "7009.92.50.95",
         gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AM-LE701-L-NT_001.jpg",
         keterangan: "J51707L-MU01-PJW // Live Edge 3D Mirror Solid Suar Wood Frame, 30 Inch W, Natural, (30 Inch W x 2 Inch D x 30 Inch H) // Material: Munggur Wood, Finish Code: WS-221-AU DIVA, Finish Name: Natural // Set Up  // CBM: 0.081 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** //"
-    },
-    "AP-002A2-GT-C": {
-        vendor: "3rd Party Trading (AVASA)",
-        nama: "Cadence Tonal Diamond Square Pillow",
-        kategori: "Home Accents",
-        subkategori: "Pillows",
-        warna: "Grey",
-        tier: "Tier 3",
-        cbm: "",
-        hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AP-002A2-GT-C_001.jpg",
-        keterangan: "Pillow 21 Inch  X 13 Inch  - Chunky dori tonal diamond - Graphite (feather/down inserts)..Material:Front cotton Duck/ Back Natural Flex 85% Cotton/15% Linen..Color:Graphaite"
     },
     "AP-007A1-NT-C": {
         vendor: "V401 Santosh Handtex",
@@ -4184,7 +4173,7 @@ const data = {
         tier: "Inactive",
         cbm: "0.01",
         hts: "7323.94.00.80",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AT-310824-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AT-310824-WH-SampleImage.jpg",
         keterangan: ""
     },
     "AT-31361-SF": {
@@ -4316,7 +4305,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.0806",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AT-320810-TP_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AT-320810-TP_001.JPG",
         keterangan: "1060UWN  //  Lela Abstract Design Enameled Mangowood Rectangular Tray, Sage Green Enamel With Natural Mangowood (13x7x1)   //  Material: Enameled Mangowood  //  Finish: Sage Green Enamel With Natural Mangowood //  CBM: 0.0806  //  Packaging: Brown Corrugated Box  - Drop Ship Packaging //  Master carton of 12// DROP SHIP PACKAGING REQUIRED ON INNER BOXES //"
     },
     "AT-322810-BK": {
@@ -4508,7 +4497,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.0187768",
         hts: "7616.99.51.90",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AV-310822-SV_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AV-310822-SV_1",
         keterangan: "975295  //  Aria Hammered Knit Large Wide Mouth Vase, Rustic Silver (11.5 x 6.5 x 15.5)   //  Material: Aluminum  //  CBM: 0.0187768  //  Packaging: Paper Wrapping / Polybag / Drop Ship Packaging  //  MOQ: 60"
     },
     "AV-315001": {
@@ -4700,7 +4689,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.0517",
         hts: "6912.00.50.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AV-320836-BK_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AV-320836-BK_001.JPG",
         keterangan: "1004UTD-A  //  Apollo Black Terracotta Wide Mouth Vase, Washed Black (11x11x12.5)   //  Material: Terracotta  //  Finish: Washed Black //  CBM: 0.0517  //  Packaging: Brown Corrugated Box  //  MOQ: 100"
     },
     "AV-320838-BK": {
@@ -4712,7 +4701,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.0637",
         hts: "6912.00.50.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AV-320838-BK_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/AV-320838-BK_001.JPG",
         keterangan: "1101UTD-A  //  Eros Black Terracotta Small Mouth Vase, Washed Black (11x11x15)   //  Material: Terracotta  //  Finish: Washed Black //  CBM: 0.0637  //  Packaging: Brown Corrugated Box  //  MOQ: 100"
     },
     "AV-33064-AM": {
@@ -6296,7 +6285,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.13",
         hts: "9401.61.60.11",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-3219292-WS_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-3219292-WS_001.JPG",
         keterangan: "WW 9292  //  Mango Wood Bench (51X15X18)   //  Material: Mango Wood  //  CBM: 0.13  //  Packaging: DROP TEST PACKING  //  Master Carton: N  //  ***DROPSHIP PACKAGING REQUIRED***"
     },
     "BN-3219292-WS-2": {
@@ -6308,7 +6297,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.13",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-3219292-WS-2_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-3219292-WS_001.JPG",
         keterangan: "WW 9292  //  Mango Wood Bench (51X15X18)   //  Material: Mango Wood  //  CBM: 0.13  //  Packaging: DROP TEST PACKING  //  Master Carton: N  //  ***DROPSHIP PACKAGING REQUIRED***"
     },
     "BN-322312": {
@@ -6380,7 +6369,7 @@ const data = {
         tier: "New",
         cbm: "0.118",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-58691-BL_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-58691-BL_001.JPG",
         keterangan: "BN-58691-BL // Winston Rattan Stool With Woven Seat, Blue/Natural (21.25W Inch  x 16.5D Inch  x 19.25H Inch ) // // Materials: Rattan Pole, Rattan Pitrit // Finish Code: N-BL, Finish Name: Blue Grey - Natural // Set Up // CBM: 0.101 // ***STACKED SINGLE WALL WRAPPED WITH CARTONS INCLUDED***"
     },
     "BN-58691-NV": {
@@ -6416,7 +6405,7 @@ const data = {
         tier: "New",
         cbm: "0.2765",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-58747-AN_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/BN-58747-AN_001.JPG",
         keterangan: "BN-58747-AN // Baylin Rattan Bench With Woven Banana Leaf Seat, Antique Natural (59W Inch  x 15.75D Inch  x 19.25H Inch ) //  // Materials: Rattan Pole - Banana Leaf // Finish Code: LGB, Finish Name: Light grey Bistro // Set Up  // CBM: 0.2765 // ***Single Wall Only Without Shipping Cartons***"
     },
     "BN-65444-AN": {
@@ -6824,7 +6813,7 @@ const data = {
         tier: "Tier 2",
         cbm: "1.764",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CB-63520-BR_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CB-63520-BR_001.JPG",
         keterangan: "Two Tone Cabinet 1, Bayur Wood & Glass, Brown with White Paneling   M-DCM22 X-954   Exterior: Dark Brown, Interior: White Panel   CBM: 1.764"
     },
     "CB-63520-WH": {
@@ -7004,7 +6993,7 @@ const data = {
         tier: "Ecotessa",
         cbm: "0.01",
         hts: "9403.60.80.89",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CC-05-47-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CC-05-47-NT_004.jpg",
         keterangan: "Palmwood - Manhattan (17x17x2.5)..Material/Color: Palm Skin Wood/Natural..CBM:0.01"
     },
     "CC-06-210": {
@@ -7016,7 +7005,7 @@ const data = {
         tier: "Ecotessa",
         cbm: "0.01",
         hts: "9403.60.80.89",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CC-06-210_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CC-06-210_004.jpg",
         keterangan: "15.74 Inch X15.74 Inch  Envi Wood Mosaic Tiles (pack=6 pcs) (15.74X15.74X2.5)..Material/Color: Envy Wood; Puzzle Stle/Natural..CBM:0.01..Packing : 6pcs/Box"
     },
     "CC-06-321": {
@@ -7256,7 +7245,7 @@ const data = {
         tier: "Ecotessa",
         cbm: "0.01",
         hts: "9403.60.80.89",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CF-09-615-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CF-09-615-NT_003.jpg",
         keterangan: "Recycled Hardwood Brick Stix (24x6x1)..Material/color:Hardwood Recycled/Nat Color..CBM:0.01"
     },
     "CH-73101-BL": {
@@ -7376,7 +7365,7 @@ const data = {
         tier: "New",
         cbm: "0.264",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-58298-WW_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-58298-WW_001.JPG",
         keterangan: "CS-58298-WW // Sahara Rattan Weave Counterstool With Wood Legs, Whitewash (20.5W Inch  x 22D Inch  x 38.5H Inch ) // Fabric Type: Cotton, Fabric Code from Vendor: CTN01, Fabric Content %: 1, Fill Material on Upholstered Items only: Foam // Materials: Teakwood, Rattan Pole, Rattan Pitrit // Finish Code: SB-WW, Finish Name: Snowbound White Wash  (Rattan and Wood) // Set Up  // CBM: 0.264 //  ***SOFFA COMPLIANCE REQUIRED*** // ***Single Wall Only Without Shipping Cartons***"
     },
     "CS-58301": {
@@ -7568,7 +7557,7 @@ const data = {
         tier: "NNL",
         cbm: "0.2198",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-58765-OG_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-58765-OG_001.JPG",
         keterangan: "SC25-003 // Arbor Rattan Abstract Leaf Counterstool, Olive Green (20W Inch  x 22.5D Inch  x 37H Inch ) // Fabric Type: Cotton, Fabric Code from Vendor: CTN01, Fabric Content %: 1, Fill Material on Upholstered Items only: Foam // Materials: Rattan Semi Pole, Rattan Core, Plywood // Finish Code: AG, Finish Name: Artichoke Green // Set Up // CBM: 0.2198 // Number of Shipping Boxes: 1 // ***SOFFA COMPLIANCE REQUIRED*** //"
     },
     "CS-58765-OW": {
@@ -7592,7 +7581,7 @@ const data = {
         tier: "NNL",
         cbm: "0.2198",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-58765-SB_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-58765-SB_001.JPG",
         keterangan: "SC25-003 // Arbor Rattan Abstract Leaf Counterstool, Slate Blue (20W Inch  x 22.5D Inch  x 37H Inch ) // Fabric Type: Cotton, Fabric Code from Vendor: CTN01, Fabric Content %: 1, Fill Material on Upholstered Items only: Foam // Materials: Rattan Semi Pole, Rattan Core, Plywood // Finish Code: MB, Finish Name: Moody Blue // Set Up // CBM: 0.2198 // Number of Shipping Boxes: 1 // ***SOFFA COMPLIANCE REQUIRED*** //"
     },
     "CS-65102-NT": {
@@ -7772,7 +7761,7 @@ const data = {
         tier: "NNL",
         cbm: "0.147",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-73675-AN_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CS-73675-AN_001.JPG",
         keterangan: "Bonnie-backless-CS-ANTL // Bonnie Backless Rattan Counterstool With Scallop Woven Rattan Apron And Upholstered White Seat, Antique Natural (15.75W Inch  x 15.75D Inch  x 24.75H Inch ) // Fabric Type: Polyester, Fabric Code from Vendor: VW White, Fabric Content %: 1, Fill Material on Upholstered Items only: Foam // Materials: Rattan, Plywood // Finish Code: JFN LG BRY, Finish Name: Light Grey Bistro // Set Up  // CBM: 0.147 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***SOFFA COMPLIANCE REQUIRED*** //"
     },
     "CS-73JA30-NT": {
@@ -7964,7 +7953,7 @@ const data = {
         tier: "NNL",
         cbm: "0.25",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT2-70228-BD_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT2-70228-BD_001.jpeg",
         keterangan: "J1401-1PJW // Navi Open Lattice Weave Storage Coffee Tables, Set of Two, Blonde, (26 Inch  Inch W x 26 Inch  Inch D x 16 Inch  Inch H , 20 Inch W x 20 Inch D x 13 Inch H) // Materials: Banana Natural, Gamelina Wood, Gunny Sack // Finish Code: 142-144, Finish Name: Natural Blonde - Peanut Brown with Brush // Set Up  // CBM: 0.25 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** //"
     },
     "CT-312102-BK": {
@@ -8144,7 +8133,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.206",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-3214830-WS_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-3214830-WS_001.jpeg",
         keterangan: "WW 12071  //  A Coffee Table Shelf 5 Inch  from bottom same thickness as top and sides White Sand (45x24x16)   //  Material:   //  CBM: 0.206  //  Packaging: DROP TEST PACKING  //  Master Carton: N  //  ***DROPSHIP PACKAGING REQUIRED***"
     },
     "CT-3214830-WS-2": {
@@ -8156,7 +8145,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.206",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-3214830-WS-2_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-3214830-WS_001.jpeg",
         keterangan: "WW 12071  //  A Coffee Table Shelf 5 Inch  from bottom same thickness as top and sides White Sand (45x24x16)   //  Material:   //  CBM: 0.206  //  Packaging: DROP TEST PACKING  //  Master Carton: N  //  ***DROPSHIP PACKAGING REQUIRED***"
     },
     "CT-321560-WS": {
@@ -8204,7 +8193,7 @@ const data = {
         tier: "Inactive",
         cbm: "",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-322102-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-322102-WH-001-SampleImage.jpg",
         keterangan: "39 Inch  Round Iron and Marble Coffee Table CBM: NA"
     },
     "CT-322104-NT": {
@@ -8600,7 +8589,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.311",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-329544-MB_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-329544-MB_001.JPG",
         keterangan: "FD-1210 NEW // Archie Mango Wood Coffee Table, 42 Inch W, Matte Black 42 x 22 x 16,  // Finish Code: Matte Black, Finish Name: Matte Black // Set Up  // CBM: 0.311 // Number of Shipping Boxes: 1 //  //  // ***DROPSHIP PACKAGING REQUIRED***  ***ISTA 3A PACKAGING REQUIRED***"
     },
     "CT-329545-NT": {
@@ -8696,7 +8685,7 @@ const data = {
         tier: "Sample",
         cbm: "0.261",
         hts: "9403.83.00.30",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-58102-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-58102-WH-001-SampleImage.jpg",
         keterangan: "48 Inch  Briggs Folding Console Table, White with Natural Rattan Inset  48 Inch  Briggs Folding Console Table, White with Natural Rattan Inset (48x18x30)  Material: Rattan  CBM: 0.261  Packaging: Carton Box 150 lbs"
     },
     "CT-58122-NT": {
@@ -8840,7 +8829,7 @@ const data = {
         tier: "Tier 2",
         cbm: "0.62",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-68395-BR_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-68395-BR_001",
         keterangan: "EPQ 2807 JF  // Braxton Square Plynth Coffee Table, 40 Inch W, Brown, (40 Inch W x 40 Inch D x 16 Inch H) //  // Finish Code: BNT/01, Finish Name: Rustic Natural // Set Up  // CBM: 0.407 // Number of Shipping Boxes: 1  //"
     },
     "CT-68591-MBR": {
@@ -8972,7 +8961,7 @@ const data = {
         tier: "Sample",
         cbm: "0.442",
         hts: "9403.60.80.89",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-70106-NU_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/CT-70106_001.jpg",
         keterangan: "JG-ORG-CT-NM-39PJW  //  Burl Organic Square Coffee Table, Natural (36x36x16)   //  Material: Teakwood  //  Finish: Natural HO  //"
     },
     "CT-70108-NB": {
@@ -9656,7 +9645,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.203",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-5802-RTNT2_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-5802-RTNT2_001.jpeg",
         keterangan: "DC23-003-NT  //  Sahara II Rattan Weave Dining Chair With Wood Legs, Set Of 2, 33.5 Inch H, Natural (20.50x22.75x33.50)   //  Material: Leg : Mindy Wood, Weaving into Rattan Pitrit  //  Finish: Leg : Natural , weaving into Natural Pitrit"
     },
     "DC-5802-RTWH": {
@@ -9848,7 +9837,7 @@ const data = {
         tier: "New",
         cbm: "0.303",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-58995-WW_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-58995-WW_001.JPG",
         keterangan: "DC-58995-WW // Eloise Rattan Weave Rounded Arm Chair, Whitewash (24W Inch  x 24D Inch  x 33H Inch ) // Fabric Type: Cotton, Fabric Code from Vendor: CTN01, Fabric Content %: 1, Fill Material on Upholstered Items only: Foam // Materials: Rattan Pole, Rattan Pitrit // Finish Code: SB-WW, Finish Name: Snowbound White Wash // Set Up  // CBM: 0.303 // ***SOFFA COMPLIANCE REQUIRED*** // ***Single Wall Only Without Shipping Cartons***"
     },
     "DC-58FU24-WC": {
@@ -9908,7 +9897,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.402",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-65201-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-65201-NT_001.JPG",
         keterangan: "JFI005  //  Atherton Wide Weave Water Hyacinth Dining Chair, Natural (27.56x25.2x33.86)   //  Material: Rattan, Water Hyacinth, Fabric  //  Finish: Lacquer; NATURAL  //  CBM: 0.33  //  Packaging: CORRUGATED PAPER  //  MOQ: 20"
     },
     "DC-65201-NT-V2": {
@@ -10352,7 +10341,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.141",
         hts: "9401.61.60.11",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-917103-BK_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DC-917103-BK_001.JPG",
         keterangan: "MODEL 7107  //  Monroe Cane Back Side Chair,  Set of 2, 33.5 Inch H,  Black (18.5x22.5x33.5)   //  Material: Rubberwood, Fabric, Rattan  //  Finish: City Fabric  //  ***ISTA 3A Packaging Required***"
     },
     "DC-91989-BE": {
@@ -11012,7 +11001,7 @@ const data = {
         tier: "Inactive",
         cbm: "1.26",
         hts: "9403.20.00.90",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DT-322250-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/DT-322250-WH_001.JPG",
         keterangan: " Inch VM152   //  Antique Iron & White Marble Dining Table, White (47 x 47 x 30)   //  Material: Iron and Marble  //  Finish: Marble: White   IRON: Antiqued  //  CBM: 1.26  //  Packaging: Wooden Base - Carton Packed Marble Top - Wooden Crate  //  MOQ: 24"
     },
     "DT-325233-DW": {
@@ -11876,7 +11865,7 @@ const data = {
         tier: "New",
         cbm: "0.31",
         hts: "9403.99.20.40",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/HB-KD505-K-NV_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/HB-KD505-K-NV_006",
         keterangan: "HB-KD505-K-NV // Lattice King Headboard, Navy, (78.75 Inch W x 2 Inch D x 52 Inch H) // Materials: Mahogany Wood, Rattan // Finish Code: JFN-NVY01, Finish Name: Navy // KD // CBM: 0.31042 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //"
     },
     "HB-KD505-K-WH": {
@@ -12056,7 +12045,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.371",
         hts: "9403.60.80.89",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/JV-CLT503_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/JV-CLT503_001.JPG",
         keterangan: "J22239DT-TW121-PJW  //  Charleston Teak Dining Table, White Patina (76.77x37.40x30.31)   //  Material: TeakWood    //  CBM: 0.371  //  Packaging: Box kraft  200 + Protect Box Styrofoam 2cm (elbow shape) + Protect Box Styrofoam 2cm for a circle shape ( L ) + Single Face  //  Master Carton: Y , 1"
     },
     "JV-CR401": {
@@ -12092,7 +12081,7 @@ const data = {
         tier: "New",
         cbm: "0.346",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/JV-FR205-BD_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/JV-FR205-BD_001",
         keterangan: "J3440-1PJW // Francis Double Bench, Blonde (56.75W Inch  x 17D Inch  x 22H Inch ) // Fabric Type: Polyester, Fabric Code from Vendor: Mascoto, Fabric Content %: 100% Polyester, Fill Material on Upholstered Items only: Foam // Materials: Banana Natural, Gamelina Wood // Finish Code: 142-143, Finish Name: Natural Blonde - Peanut Brown w/o Brush // Partial KD // CBM: 0.348 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** // ***SOFFA COMPLIANCE REQUIRED*** //"
     },
     "JV-FR205-WF": {
@@ -13808,7 +13797,7 @@ const data = {
         tier: "NNL",
         cbm: "0.291",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/NS-68696-LOV_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/NS-68696-LOV_001.jpeg",
         keterangan: "GAL/2919/JF // Linea 2 Drawer Nightstand with Shelf, Light Oak (28W Inch  x 15D Inch  x 26H Inch ) //  // Materials: Wood+Mdf+Fully Wraped Veneer Oak Including Wood Frame+Metal Rails+40mm Metal Ring Pulls // Finish Code: NAV/01 - Ring Pull: AC-040/E, Finish Name: Light Oak - Ring Pull: Antique Gold // Set Up  // CBM: 0.294 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** //"
     },
     "NS-68696-MBV": {
@@ -14336,7 +14325,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.302",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-5801-RTBL_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-5801-RTBL_001.JPG",
         keterangan: "OC23-001-BG  // Winston II Rattan Arm Chair - (24 Inch W x 25.50 Inch D x 39.25 Inch H) //  Material: Frame : Rattan Pole, Decore into Rattan Core  //  Finish: Blue Grey  //  ***ISTA 3A Packaging Required***"
     },
     "OC-5801-RTGR": {
@@ -14360,7 +14349,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.302",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-5801-RTNT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-5801-RTNT_001.jpeg",
         keterangan: "OC23-001-GB  // Winston II Rattan Arm Chair - (24 Inch W x 25.50 Inch D x 39.25 Inch H) //  Material: Frame : Rattan Pole, Decore into Rattan Core  //  Finish: Grey Bistro"
     },
     "OC-5805-MHBK": {
@@ -14468,7 +14457,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.302",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-5822-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-5822-WH_001?fcts=20240905043328",
         keterangan: "OC24-001-WH // Winston II Rattan Arm Chair - (24 Inch W x 25.50 Inch D x 39.25 Inch H) //  Fabric Type: Cotton, Fabric Code: CTNWC, Fabric Content: 100% Cotton, Fill Material: Polyurethane Foam // Finish Code: WH, Finish Name: SOLID WHITE // Set Up  // CBM: 0.253 // Number of Shipping Boxes: 1 //  // Container Packed Via: Bulk Packed ***Boxes and Packaging Included*** // ***DROPSHIP PACKAGING REQUIRED***"
     },
     "OC-58301": {
@@ -14540,7 +14529,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.291",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-65101-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-65101-NT_001.JPG",
         keterangan: "JFI001 // Ellison Rattan Square Back Arm Chair, Natural (22.5x23.5x33.75) // Material: MAHOGANY WOOD, Natural Peel Rattan, Foam // Finish: Lacquer; NATURAL // CBM: 0.291 // Packaging: Dop Ship pAckaging required"
     },
     "OC-65202-NT-V2": {
@@ -14564,7 +14553,7 @@ const data = {
         tier: "FOB",
         cbm: "0.438",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-65318-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-53318-NT_001.jpg",
         keterangan: "  1042/1  //  Open Square Lattice Frame Rattan Occasional Chair, Natural (26.38x28.74x25.20)   //  Material: Rattan  //  CBM: 0.438  //  Packaging: Box Kraft 150 with corner inject 2 cm  //  MOQ:"
     },
     "OC-70282-WW": {
@@ -14612,7 +14601,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.66",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-73308-BK_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-73308-BK_001.JPG",
         keterangan: "ROUND-RAT-OCC-BLK  //  Arden Rounded Rattan Occasional Chair, Black (31.5x28.35x34.25)   //  Material: Rattan pole, plywood, foam 8cm d/c20, Canvas White fabric  //  CBM: 0.66  //  Packaging:  ***DROPSHIP PACKAGING REQUIRED***//"
     },
     "OC-73310-NT": {
@@ -14624,7 +14613,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.577",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-73310-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OC-73310-NT_001.JPG",
         keterangan: "RATTAN-OPEN-BARREL-NT  //  Yulia Open Rattan Barrel Occasional Chair, Natural (29.13 x 28.35x31.15)   //  Material: Rattan pole, Rattan Core Half, plywood, loose cushion seat foam 15cm d/c20, Canvas White fabric, Pillow  Dacron filling Canvas white Fabric  //  CBM: 0.577  //  Packaging:  ***DROPSHIP PACKAGING REQUIRED***//"
     },
     "OC-73759-MBR": {
@@ -15008,7 +14997,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.076",
         hts: "9401.53.00.00",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OS-73302-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OS-73302-NT_001.JPG",
         keterangan: "Director stool Director stool, Natural (21x16x18) Material:Rattan, Slimit CBM: 0.076 Packaging: 1pc/box 200 psi"
     },
     "OT-316123-BL": {
@@ -15068,7 +15057,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.305",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-321111-WS_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-321111-WS_001.JPG",
         keterangan: "003  //  Kafe 24 Inch  Mango Occasional Table, White Sand (24X24X24)   //  Material: Mango Wood  //  CBM: 0.305  //  Packaging: DROP TEST PACKING  //  Master Carton: N"
     },
     "OT-321389-SA": {
@@ -15116,7 +15105,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.19",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-3219294-WS_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-3219294-WS_001.JPG",
         keterangan: "WW 9294  //  Mango Wood Console Table (51X15X35)   //  Material: Mango Wood  //  CBM: 0.19  //  Packaging: DROP TEST PACKING  //  Master Carton: N  //  ***DROPSHIP PACKAGING REQUIRED***"
     },
     "OT-3219294-WS-2": {
@@ -15128,7 +15117,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.19",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-3219294-WS-2_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-3219294-WS_001.JPG",
         keterangan: "WW 9294  //  Mango Wood Console Table (51X15X35)   //  Material: Mango Wood  //  CBM: 0.19  //  Packaging: DROP TEST PACKING  //  Master Carton: N  //  ***DROPSHIP PACKAGING REQUIRED***"
     },
     "OT-322106-NT": {
@@ -15380,7 +15369,7 @@ const data = {
         tier: "NNL",
         cbm: "0.4563",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-58990-AN_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-58990-AN_001.JPG",
         keterangan: "COT25-002 // Millie Rattan Woven Console Table, Antique Natural (55W Inch  x 16.5D Inch  x 30H Inch ) //  // Materials: Rattan Pole, Rattan Pitrit, Teakwood // Finish Code: LGB, Finish Name: Light Grey Bistro // Set Up // CBM: 0.45625 // Number of Shipping Boxes: N/A //"
     },
     "OT-63770-WH": {
@@ -15404,7 +15393,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.4",
         hts: "9403.83.00.30",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-65303-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OT-65303-NT_001.JPG",
         keterangan: "JFI007  //  Braxton Scalloped Skirt Rattan Console Table, Natural (39.37x13x30.71)   //  Material: Rattan   //  Finish: Lacquer; NATURAL  //  CBM: 0.4  //  Packaging: CORRUGATED PAPER  //  MOQ: 20"
     },
     "OT-65414-AN": {
@@ -15884,7 +15873,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.31",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OU-54321-BL_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/OU-54321-BL_001.JPG",
         keterangan: "2193 Arm Chair  //  Outdoor Mercury Arm Chair (23.62x24.21x31.89)   //  Material: Synthetic Rattan  //  CBM: 0.31  //  Packaging: Single Wall Carton + Carton Box 200 + Protect"
     },
     "OU-54321-BR": {
@@ -16100,7 +16089,7 @@ const data = {
         tier: "New",
         cbm: "0.2645",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/SB-58106-AN_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/SB-58106-AN_001.JPG",
         keterangan: "SB-58106-AN // Maples Counterstool with Upholstered Seat, Antique Natural, (20 Inch W x 21.5 Inch D x 37.5 Inch H) // Fabric Type: Cotton, Fabric Code from Vendor: CTN05, Fabric Content %: 1, Fill Material on Upholstered Items only: Foam // Materials: Rattan Semi Pole, Rattan Peel // Finish Code: LGB, Finish Name: Light Grey Bistro // Set Up // CBM: 0.2645 // ***SOFFA COMPLIANCE REQUIRED*** // ***STACKED SINGLE WALL WRAPPED WITH CARTONS INCLUDED***"
     },
     "SB-58106-SB": {
@@ -16220,7 +16209,7 @@ const data = {
         tier: "New",
         cbm: "0.8691",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/SB-63513-SM-BR_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/SB-63513-SM-BR_001.JPG",
         keterangan: "DCCO261_A-123 // Claude Bow Front Sideboard, Small, Brown (60.75 Inch W x 19.75 Inch D x 35.5 Inch H) //  // Materials: Bayur wood/MDF/Plywood/Veneer Mindi wood/Doorcore // Finish Code: A-123, Finish Name: wood A-123 // Set Up  // CBM: 0.8691 // Number of Shipping Boxes: 1 //"
     },
     "SB-63514": {
@@ -16412,7 +16401,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.329",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/SB-68RA31-WW_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/SB-68RA31-WW_001.JPG",
         keterangan: "EGR-2062-JF  // Havana 2 Door Cabinet With Whitewash Raffia Panels, White (31.4x15x29.5)   //  Material: Solid Wood, MDF, Raffia webbing  //  CBM: 0.329  //  Packaging: Solid Wood, MDF, Raffia webbing  K/D  ***DROPSHIP PACKAGING REQUIRED***// ***ANTI TIP KIT REQUIRED***"
     },
     "SB-69566": {
@@ -17468,7 +17457,7 @@ const data = {
         tier: "Inactive",
         cbm: "",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-322101-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-322101-WH-001-SampleImage.jpg",
         keterangan: "Wood and Marble Pedestal Side Table CBM: NA"
     },
     "ST-322108-NT": {
@@ -18128,7 +18117,7 @@ const data = {
         tier: "Inactive",
         cbm: "0.163",
         hts: "9403.83.00.30",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-58101-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-58101-WH-001-SampleImage.jpg",
         keterangan: "Wren Chippendale Rattan Side Table, White with Natural Rattan Inset  Wren Chippendale Rattan Side Table, White with Natural Rattan Inset (19x16x22)  Material: Rattan  CBM: 0.163  Packaging: Carton Box 150 lbs"
     },
     "ST-58102-WH": {
@@ -18140,7 +18129,7 @@ const data = {
         tier: "Sample",
         cbm: "0.098",
         hts: "9403.83.00.30",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-58102-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-58102-WH-001-SampleImage.jpg",
         keterangan: "Wren Folding Side Table, White with Natural Rattan Inset  Wren Folding Side Table, White with Natural Rattan Inset (27x20x30)  Material: Rattan  CBM: 0.098  Packaging: Carton Box 150 lbs"
     },
     "ST-58344-WH": {
@@ -18224,7 +18213,7 @@ const data = {
         tier: "New",
         cbm: "0.166",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-58889-WW_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-58889-WW_001.JPG",
         keterangan: "Side Table // Millie Rattan Woven Side Table, 19.5 Inch  Inch  Round, Whitewash  (19.5W Inch  x 19.5D Inch  x 23H Inch ) //  // Materials: Rattan Pitrit, Rattan Semi Pole // Finish Code: WW, Finish Name: Snowbound whitewash // Set Up  // CBM: 0.166 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //"
     },
     "ST-63660-L-WH": {
@@ -18236,7 +18225,7 @@ const data = {
         tier: "New",
         cbm: "0.2383",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-63660-L-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-63660-L-WH_001.JPG",
         keterangan: "DCC535_X-992 // Atlantis Side Table With Woven Rattan Detail, White (22 Inch W x 22 Inch D x 22 Inch H) //  // Materials: Bayur wood/MDF/Rattan Rapat // Finish Code: X-992, Finish Name: wood C-355 rattan Rapat RA-432 // Set Up  // CBM: 0.2383 // Number of Shipping Boxes: 1 //"
     },
     "ST-63660-WH": {
@@ -18272,7 +18261,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.145",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-65104-NT_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-65104-NT_001.JPG",
         keterangan: "JFI004 // Ellison Round Rattan Side Table With Shelf, Natural (18x18x19.25) // Material: MAHOGANY WOOD, Natural Peel Rattan, // Finish: Lacquer; NATURAL // CBM: 0.145 // Packaging: CORRUGATED PAPER // MOQ: 20 // ISTA 3A Dropship packaging"
     },
     "ST-65350-AN": {
@@ -18368,7 +18357,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.15",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-68288-BR_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-68288-BR_001",
         keterangan: "EQD 2820 JF  // Braxton Square Plynth Side Table, 15.75 Inch W, Brown, (15.75 Inch W x 15.75 Inch D x 20 Inch H) //  // Finish Code: BNT/01, Finish Name: Rustic Natural // Set Up  // CBM: 0.140 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //  ***ISTA 3A PACKAGING REQUIRED*** //"
     },
     "ST-68501-DGV": {
@@ -19052,7 +19041,7 @@ const data = {
         tier: "New",
         cbm: "0.186",
         hts: "",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-70328-NU_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/ST-70328-NU_001.JPG",
         keterangan: "J41-39PJW // Savoy Turned Leg Side Table With Marble Tabletop, Natural, (11.75 Inch W x 11.75 Inch D x 23 Inch H) //  // Materials: Mungur, Marble // Finish Code: 39, Finish Name: Natural Ho // Set Up  // CBM: 0.186 // Number of Shipping Boxes: 1 // ***DROPSHIP PACKAGING REQUIRED*** //"
     },
     "ST-70435": {
@@ -19724,7 +19713,7 @@ const data = {
         tier: "Tier 1",
         cbm: "0.106",
         hts: "9403.60.80.89",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/TT-JV-JT403-WP_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/TT-JV-JT403-WP_001.JPG",
         keterangan: "J21067C-S-CN3B507PJW  //  Juliette Coco End Table (15.74x15.74x16.53)   //  Material:     //  CBM: 0.106  //  Packaging: Box Kraft  150 + Box SW Juliette Stool (Small) 40x40x42 + Protect Box Styrofoam PE 2cm (L shape)  //  Master Carton: Y , 1"
     },
     "TT-JV-NHT403-BS": {
@@ -20000,7 +19989,7 @@ const data = {
         tier: "Tier 3",
         cbm: "0.4066",
         hts: "9403.60.80.93",
-        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/TT-ST-68501-WH_001.jpg",
+        gambar: "https://6694454.app.netsuite.com/c.6694454/item-images/TT-ST-68501-WH_001.jpeg",
         keterangan: "BYO/1775/JF  //  Ezra 2 Drawer Side Table (34x15x29.5)   //  Material: MDF  //  CBM: 0.4066  //  Packaging: Brown carton   5 ply outer craft 200   Styrofoam 3 cm  //  Master Carton:   //  ***(BYO/1775/JF) Ezra 2 Drawer Side Table , White 34x15x29.5..Material/Color: Solid wood & Mdf/ White GBI..CBM: 0.39..Packing: Box kraft 200 + Protection***  // KD // ***ANTI TIP KIT REQUIRED***"
     },
     "TT-ST-70659-NT": {
