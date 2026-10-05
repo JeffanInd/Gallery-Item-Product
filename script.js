@@ -569,7 +569,6 @@ function showItem(index) {
             ${escapeHtml(item.hts)}
         </div>
 
-
         <div class="item-row">
             <span class="item-label">
                 Descriptions :
@@ -577,25 +576,9 @@ function showItem(index) {
             <br>
             ${escapeHtml(item.keterangan)}
         </div>
-
-
-        <div class="item-delete-area">
-
-            <button
-                type="button"
-                class="delete-item-button"
-                onclick="deleteSelectedItem()"
-            >
-                🗑️ Delete This Item
-            </button>
-
-        </div>
-
     </div>
 
-
     <div class="item-image-box">
-
         ${
             item.gambar
 
