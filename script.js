@@ -835,28 +835,22 @@ nextButton.onclick =
 // ========================================================
 // SELECT ITEM CODE
 // ========================================================
-kodeSelector.onchange =
-    function () {
-        if (!this.value) {
-            resetGallery();
-            return;
-        }
+kodeSelector.onchange = function () {
+    if (!this.value) {
+        resetGallery();
+        return;
+    }
 
-        currentMode =
-            "single";
-        filteredItems =
-            [this.value];
-        currentIndex =
-            0;
-        kategoriSelector.value =
-            "";
-        vendorSelector.value =
-            "";
-        KodeSearch.value =
-            "";
-        showItem(0);
+    currentMode = "single";
+    filteredItems = Object.keys(data);
+    currentIndex = filteredItems.indexOf(this.value);
 
-    };
+    kategoriSelector.value = "";
+    vendorSelector.value = "";
+    KodeSearch.value = "";
+
+    showItem(currentIndex);
+};
 
 
 // ========================================================
